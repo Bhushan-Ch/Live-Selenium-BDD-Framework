@@ -1,0 +1,9 @@
+base\BaseClass.class
+pages\LoginPage.class
+utils\DriverFactory.class
+pages\CartPage.class
+pages\SearchPage.class
+utils\WaitHelper.class
+pages\DashboardPage.class
+pages\RegistrationPage.class
+utils\ConfigReader.class

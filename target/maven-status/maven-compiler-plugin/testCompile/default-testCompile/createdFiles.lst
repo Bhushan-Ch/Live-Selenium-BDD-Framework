@@ -1,0 +1,5 @@
+stepDefinitions\SearchSteps.class
+stepDefinitions\LoginSteps.class
+stepDefinitions\CartSteps.class
+hooks\Hooks.class
+runner\TestRunner.class
