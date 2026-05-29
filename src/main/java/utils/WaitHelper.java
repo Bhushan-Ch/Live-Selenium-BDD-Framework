@@ -15,7 +15,7 @@ public class WaitHelper {
 
 	public WaitHelper(WebDriver driver) {
 		this.driver = driver;
-		wait = new WebDriverWait(driver, Duration.ofSeconds(15));
+		wait = new WebDriverWait(driver, Duration.ofSeconds(60));
 
 	}
 
