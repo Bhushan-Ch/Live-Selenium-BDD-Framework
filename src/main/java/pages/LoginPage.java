@@ -28,7 +28,18 @@ public class LoginPage extends BaseClass {
 
 	public void clickMyAccount() {
 
-		click(myAccount);
+	    System.out.println("Current URL : "
+	            + driver.getCurrentUrl());
+
+	    System.out.println("Title : "
+	            + driver.getTitle());
+
+	    System.out.println("My Account count : "
+	            + driver.findElements(
+	                By.xpath("//span[text()='My Account']")
+	            ).size());
+
+	    click(myAccount);
 	}
 
 	public void clickLogin() {
