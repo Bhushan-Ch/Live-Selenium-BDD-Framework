@@ -21,11 +21,18 @@ public class SearchSteps {
         searchPage.clickSearch();
     }
 
-    @Then("Product should display successfully")
-    public void verifySearch() {
-
-        System.out.println(
-        "Product Displayed");
+//    @Then("Product should display successfully")
+//    public void verifySearch() {
+//
+//        System.out.println(
+//        "Product Displayed");
+    
+    @Then("Product should displayed successfully")
+    public void product_should_displayed_successfully() {
+    	
+    	System.out.println(
+    	        "Product Displayed");
+       
     }
 	
 	
